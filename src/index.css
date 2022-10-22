@@ -1,0 +1,172 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+
+}
+/* Page style */
+page[size="A4"][layout="landscape"] {
+  width: 29.7cm;
+  height: 21cm;  
+  
+}
+.paper{
+  
+}
+@page {
+  
+  size: A4 landscape;
+  margin: 0;
+}
+/* 
+.side-down {
+  
+} */
+
+
+#col-2, #col-4,#col-6, #col-1 ,  #col-3,#col-5{
+ 
+  float: left;
+  position: absolute;
+ 
+  width:3.6cm;
+  height: 17.6cm;
+  margin-top: 1.5cm;
+
+}
+
+#col-1{
+  margin-left:1cm;
+  margin-right: 25.1cm;
+
+}
+#col-2{
+  margin-left:5.7cm;
+   margin-right: 20.4cm;
+}
+#col-3{
+  margin-left:10.5cm;
+   margin-right: 15.6cm;
+}
+#col-4{
+  margin-right:10.9cm;
+  margin-left: 15.2cm;
+  
+}
+#col-5{
+  margin-left:20cm;
+   margin-right: 6.1cm;
+  
+}
+#col-6{
+  margin-right: 1.4cm;
+  margin-left:24.5cm;
+
+}
+
+
+
+
+.side-up  {
+  display: flex;
+align-items: center;
+justify-content: center;
+FONT-SIZE: 0.75vw;
+text-align: center;   
+border: 1px solid white;
+  height: 1.1cm !important; 
+  margin-top: 1.2cm;
+
+
+}
+.side-down {
+  display: flex;
+align-items: center;
+justify-content: center;
+FONT-SIZE: 0.75vw;
+text-align: center;
+border: 1px solid white ;
+  height: 1.1cm !important ;
+  
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+
+}
+
+#side-up-6 ,  #side-up-16,#side-up-26{
+  margin-top: 1.3cm;
+  border: 1px solid white ;
+   height: 1.2cm;
+   
+}
+#side-up-1 ,  #side-up-11, #side-up-21{
+  margin-top: 0;
+  border: 1px solid white;
+   height: 1.2cm;
+   
+  
+}
+#side-down-1 , #side-down-11 , #side-down-21{
+  border: 1px solid white ;
+  height: 1.1cm;
+  
+}
+
+/*end of page style*/
+
+.labelBlock{
+  width: 500px;
+  margin: 20px auto;
+  text-align: center;
+  
+}
+.legend-label{
+  margin-bottom: 10px;
+  color: #404040;
+}
+.input-total{
+  width: 500px;
+  border-radius: 5px;
+  margin: 50px auto 0 auto;
+  background-color: #E8E8E8;
+justify-content: center;
+justify-items: center;
+
+}
+.button-add{
+  width: 500px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
+justify-items: center;
+background-color: #E8E8E8;
+
+}
+.button-print{
+  width: 500px;
+  justify-content: center;
+justify-items: center;
+margin:   auto;
+background-color: #E8E8E8;
+padding-bottom: 20px;
+
+}
+button{
+  width: 200px;
+  margin-left: 150px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  padding: 15px 32px;
+}
+input{
+  border-radius: 5px;
+  border:1px solid #4CAF50;
+  font-size: 16px;
+  margin-bottom: 5px;
+  width:400px;
+  height: 50px;
+}
